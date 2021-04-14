@@ -1,0 +1,188 @@
+@media screen and (max-width: 767px) {
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .form-footer__slogan {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+  }
+  .form-footer__mailing-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: var(--third-text-color);
+    background-color: var(--main-background-color);
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .form-footer__submit-btn {
+    padding: 10px 28px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    border-style: unset;
+    cursor: pointer;
+  }
+  .form-footer__mailing-wrapper {
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+  }
+  .form-footer__mailing-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: var(--third-text-color);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+  }
+  .form-footer__slogan {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+  }
+  .form-footer__mailing-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: var(--third-text-color);
+    background-color: var(--main-background-color);
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .form-footer__submit-btn {
+    margin-top: 20px;
+    padding: 10px 28px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    border-style: unset;
+    cursor: pointer;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  .form-footer__mailing-wrapper {
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+  }
+  .form-footer__mailing-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: var(--third-text-color);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer {
+    margin-left: 93px;
+  }
+  .form-footer__slogan {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+  }
+  .form-footer__mailing-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: var(--third-text-color);
+    background-color: var(--main-background-color);
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  .form-footer__submit-btn {
+    margin-left: 12px;
+    padding: 10px 28px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    border-style: unset;
+    cursor: pointer;
+  }
+  .form-footer__mailing-wrapper {
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+  }
+  .form-footer__mailing-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: var(--third-text-color);
+  }
+}
